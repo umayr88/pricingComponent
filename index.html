@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Interactive pricing component - MikDra1</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container__bg"></div>
+      <div class="main__title">
+      <h1>Simple, traffic-based pricing</h1>
+      <p class="cta__text">Sign-up for our 30-day trial. No credit card required.</p>
+      <img src="images/pattern-circles.svg" alt="" class="pattern-circles">
+    </div>
+      <div class="card">
+
+
+        <div class="first__part__content">
+        <div class="main__content">
+          <p class="pageviews__text">100K PAGEVIEWS</p>
+          
+        </div>
+        <div class="box">
+          <div class="slider">
+            <input type="range" step="4" min="8" max="36"  class="range__input" value="16"/>
+          </div>
+        </div>
+
+        <div class="price__box">
+          <span class="price__text">$16.00</span>
+          <span class="price__box--month">/month</span>
+        </div>
+      </div>
+
+        <div class="toggle">
+          <p>Monthly Billing</p>
+          <div class="toggle--btn">
+            <input type="checkbox" id="check" class="toggle__input">
+            <label for="check" class="button toggle__label" ></label>
+          </div>
+          <p>Yearly Billing</p>
+          <div class="discount discount__mobile">-25%</div>
+          <div class="discount discount__desktop">25% discount</div>
+        </div>
+
+        <div class="gray__border"></div>
+
+        <div class="benefits">
+          
+          <div class="benefits__divs">
+            <div class="benefits__div">
+              <img src="images/icon-check.svg" alt="">
+              <p>Unlimited websites</p>
+            </div>
+            <div class="benefits__div">
+              <img src="images/icon-check.svg" alt="">
+              <p>100% data ownership</p>
+            </div>
+            <div class="benefits__div">
+              <img src="images/icon-check.svg" alt="">
+              <p>Email reports</p>
+            </div>
+          </div>
+
+          <button class="btn">Start my trial</button>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Coded by <a href="#">Alijon</a>.
+    </div>
+  </body>
+</html>
